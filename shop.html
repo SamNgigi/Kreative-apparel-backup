@@ -1,0 +1,2210 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Kreative-Apparel</title>
+  <!-- Requiwhite meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/smart_cart.min.css">
+  <link rel="stylesheet" href="css/master.css">
+</head>
+
+<body>
+  <!-- Navigation -->
+  <div class="container-fluid navigation">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">Kreative-Apparel</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Artist
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#about">About</a>
+              <a class="dropdown-item" href="#">Sell</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+             Shop<span class="sr-only">(current)</span>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#dcSection">Dc</a>
+              <a class="dropdown-item" href="#starSection">Star Wars</a>
+              <a class="dropdown-item" href="#marvelSection">Marvel</a>
+              <a class="dropdown-item" href="#cartoonSection">Cartoon</a>
+              <a class="dropdown-item" href="#abstractSection">Abstract</a>
+              <a class="dropdown-item" href="#musicSection">Music</a>
+              <a class="dropdown-item" href="#quotesSection">Qoutes</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">All</a>
+            </div>
+          </li>
+        </ul>
+        <form id="searchForm" class="form-inline my-2 my-lg-0 collapse">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        </form>
+        <button data-toggle="collapse" data-target="#searchForm" class="btn-outline-dark mr-2" type="submit"><i p-2 class="material-icons">search</i></button>
+        <button class="btn btn-outline-primary my-2 mx-2  my-sm-0" type="submit" data-toggle="modal" data-target="#signInForm">Sign Up</button>
+        <div class="modal fade" id="signInForm">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title">Sign-Up</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  <span class="sr-only">Close</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <form class="container" id="needs-validation" novalidate>
+                  <div class="form-group">
+                    <label for="validationCustom01">Username</label>
+                    <input type="text" class="form-control" id="validationCustom01" placeholder="First name" value="" requiwhite>
+                    <div class="invalid-feedback">
+                      Please provide a name.
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="validationCustom01">Email</label>
+                    <input type="email" class="form-control" id="validationCustom01" placeholder="Email" value="" requiwhite>
+                    <div class="invalid-feedback">
+                      Please provide a Email.
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="validationCustom01">Password</label>
+                    <input type="password" class="form-control" id="validationCustom01" placeholder="Password" value="" requiwhite>
+                    <div class="invalid-feedback">
+                      Please provide a password.
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="validationCustom01">Confirm Password</label>
+                    <input type="password" class="form-control" id="validationCustom01" placeholder="Confirm Password" value="" requiwhite>
+                    <div class="invalid-feedback">
+                      Please Confirm password.
+                    </div>
+                  </div>
+                  <button class="btn btn-primary mx-auto" type="submit">Sign-Up</button>
+
+                </form>
+
+                <script>
+                  // Example starter JavaScript for disabling form submissions if there are invalid fields
+                  (function() {
+                    'use strict';
+
+                    window.addEventListener('load', function() {
+                      var form = document.getElementById('needs-validation');
+                      form.addEventListener('submit', function(event) {
+                        if (form.checkValidity() === false) {
+                          event.preventDefault();
+                          event.stopPropagation();
+                        }
+                        form.classList.add('was-validated');
+                      }, false);
+                    }, false);
+                  })();
+                </script>
+              </div>
+            </div>
+            <!-- /.modal-content -->
+          </div>
+          <!-- /.modal-dialog -->
+        </div>
+        <!-- /.modal -->
+        <button data-toggle="modal" data-target="#logInForm" class="btn btn-outline-success my-2 my-sm-0" type="submit">Login</button>
+        <div class="modal fade" id="logInForm">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title">Login</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  <span class="sr-only">Close</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <form class="container" id="needs-validation2" novalidate>
+                  <div class="form-group">
+                    <label for="validationCustom01">Username</label>
+                    <input type="text" class="form-control" id="validationCustom01" placeholder="First name" value="" requiwhite>
+                    <div class="invalid-feedback">
+                      Please provide a name.
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="validationCustom01">Email</label>
+                    <input type="email" class="form-control" id="validationCustom01" placeholder="Email" value="" requiwhite>
+                    <div class="invalid-feedback">
+                      Please provide a Email.
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="validationCustom01">Password</label>
+                    <input type="password" class="form-control" id="validationCustom01" placeholder="Password" value="" requiwhite>
+                    <div class="invalid-feedback">
+                      Please provide a password.
+                    </div>
+                  </div>
+                  <button class="btn btn-primary mx-auto" type="submit">Login</button>
+                  <div class="g-signin2" data-onsuccess="onSignIn"></div>
+                </form>
+
+                <script>
+                  // Example starter JavaScript for disabling form submissions if there are invalid fields
+                  (function() {
+                    'use strict';
+
+                    window.addEventListener('load', function() {
+                      var form = document.getElementById('needs-validation2');
+                      form.addEventListener('submit', function(event) {
+                        if (form.checkValidity() === false) {
+                          event.preventDefault();
+                          event.stopPropagation();
+                        }
+                        form.classList.add('was-validated');
+                      }, false);
+                    }, false);
+                  })();
+                </script>
+              </div>
+            </div>
+            <!-- /.modal-content -->
+          </div>
+          <!-- /.modal-dialog -->
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <!--Shop  -->
+  <div class="container text-center mt-3">
+    <h1>Kreative-Apparel</h1>
+  </div>
+  <section class="shop container-fluid">
+    <div class="row">
+      <div id="marvelSection" class="col-md-8">
+        <div class="card border border-default">
+          <div class="card-header">
+            Marvel
+          </div>
+          <div class="card-body">
+            <div class="row">
+              <!-- BEGIN PRODUCTS -->
+              <div class="col-md-6 col-sm-6">
+                <div class="sc-product-item thumbnail">
+                  <span class="row">
+                    <span class="col-md-6 col-sm-6">
+                      <img class="img-fluid" data-name="product_image" src="imgs/Marvel/Civilwarthumbnail.jpg" alt="...">
+                    </span>
+                  <span class="col-md-6 col-sm-6">
+                      <img class="img-fluid" data-name="product_image" src="imgs/Marvel/Civilwartshirt.jpg" alt="...">
+                    </span>
+                  </span>
+                  <div class="caption">
+                    <h4 data-name="product_name">Product 1</h4>
+                    <p data-name="product_desc">Product details</p>
+                    <hr class="line">
+                    <div>
+                      <div class="form-group">
+                        <label>Size: </label>
+                        <select name="product_size" class="form-control input-sm">
+                                                    <option>S</option>
+                                                    <option>M</option>
+                                                    <option>L</option>
+                                                </select>
+                      </div>
+                      <div class="form-group">
+                        <label>Color: </label><br />
+                        <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="white"> white
+                                                </label>
+                        <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="black"> black
+                                                </label>
+                        <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="grey"> grey
+                                                </label>
+                      </div>
+                      <div class="form-group2">
+                        <input class="sc-cart-item-qty" name="product_quantity" min="1" value="1" type="number">
+                      </div>
+                      <strong class="price pull-left">Ksh 1,200</strong>
+
+                      <input name="product_price" value="1200.00" type="hidden" />
+                      <input name="product_id" value="12" type="hidden" />
+                      <button class="sc-add-to-cart btn btn-outline-success btn-sm pull-right">Add to cart</button>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-sm-6">
+                <span class="sc-product-item thumbnail">
+                                    <span class="row">
+                                      <span class="col-md-6 col-sm-6">
+                                        <img class="img-fluid" data-name="product_image" src="imgs/Marvel/Avengersthumbnail" alt="...">
+                                      </span>
+                <span class="col-md-6 col-sm-6">
+                                        <img class="img-fluid" data-name="product_image" src="imgs/Marvel/Avengerstshirt" alt="...">
+                                      </span>
+                </span>
+                <div class="caption">
+                  <h4 data-name="product_name">Product 2 </h4>
+                  <p data-name="product_desc">Product details</p>
+
+                  <hr class="line">
+                  <div>
+                    <div class="form-group">
+                      <label>Size: </label>
+                      <select name="product_size" class="form-control input-sm">
+                                                    <option>S</option>
+                                                    <option>M</option>
+                                                    <option>L</option>
+                                                </select>
+                    </div>
+                    <div class="form-group">
+                      <label>Color: </label><br />
+                      <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="white"> white
+                                                </label>
+                      <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="black"> black
+                                                </label>
+                      <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="grey"> grey
+                                                </label>
+                    </div>
+                    <div class="checkbox">
+                      <label>
+                                                    <input type="checkbox" name="gift_wrap" value="1"> Gift wrap
+                                                </label>
+                    </div>
+                    <strong class="price pull-left">Ksh 1,200</strong>
+
+                    <input name="product_price" value="1200.00" type="hidden" />
+                    <input name="product_id" value="145" type="hidden" />
+                    <button class="sc-add-to-cart btn btn-outline-success btn-sm pull-right">Add to cart</button>
+                  </div>
+                  <div class="clearfix"></div>
+                </div>
+                </span>
+              </div>
+              <div class="col-md-6 col-sm-6">
+                <div class="sc-product-item thumbnail">
+                  <span class="row">
+                    <span class="col-md-6 col-sm-6">
+                      <img class="img-fluid" data-name="product_image" src="imgs/Marvel/Deadpoolthumbnail" alt="...">
+                    </span>
+                  <span class="col-md-6 col-sm-6">
+                      <img class="img-fluid" data-name="product_image" src="imgs/Marvel/Deadpooltshirt" alt="...">
+                    </span>
+                  </span>
+                  <div class="caption">
+                    <h4 data-name="product_name">Product 3</h4>
+                    <p data-name="product_desc">Product details</p>
+
+                    <hr class="line">
+
+                    <div>
+                      <div class="form-group">
+                        <label>Size: </label>
+                        <select name="product_size" class="form-control input-sm">
+                                                    <option>S</option>
+                                                    <option>M</option>
+                                                    <option>L</option>
+                                                </select>
+                      </div>
+                      <div class="form-group">
+                        <label>Color: </label><br />
+                        <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="white"> white
+                                                </label>
+                        <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="black"> black
+                                                </label>
+                        <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="grey"> grey
+                                                </label>
+                      </div>
+                      <div class="checkbox">
+                        <label>
+                                                    <input type="checkbox" name="gift_wrap" value="1"> Gift wrap
+                                                </label>
+                      </div>
+                      <strong class="price pull-left">Ksh 1,200</strong>
+
+                      <input name="product_price" value="1200.00" type="hidden" />
+                      <input name="product_id" value="145" type="hidden" />
+                      <button class="sc-add-to-cart btn btn-outline-success btn-sm pull-right">Add to cart</button>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6 col-sm-6">
+                <span class="sc-product-item thumbnail">
+                  <span class="row">
+                    <span class="col-md-6 col-sm-6">
+                      <img class="img-fluid" data-name="product_image" src="imgs/Marvel/Thehulkthumbnail" alt="...">
+                    </span>
+                    <span class="col-md-6 col-sm-6">
+                      <img class="img-fluid" data-name="product_image" src="imgs/Marvel/Thehulktshirt" alt="...">
+                    </span>
+                  </span>
+                    <div class="caption">
+                        <h4 data-name="product_name">Product 4 </h4>
+                        <p data-name="product_desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+
+                        <hr class="line">
+                        <div>
+                            <div class="form-group">
+                                <label>Size: </label>
+                                <select name="product_size" class="form-control input-sm">
+                                    <option>S</option>
+                                    <option>M</option>
+                                    <option>L</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label>Color: </label><br />
+                                <label class="radio-inline">
+                                    <input type="radio" name="product_color" value="white"> white
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="product_color" value="black"> black
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="product_color" value="grey"> grey
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="gift_wrap" value="1"> Gift wrap
+                                </label>
+                            </div>
+                            <strong class="price pull-left">Ksh 1,200</strong>
+
+                            <input name="product_price" value="1200.00" type="hidden" />
+                            <input name="product_id" value="154" type="hidden" />
+                            <button class="sc-add-to-cart btn btn-outline-success btn-sm pull-right">Add to cart</button>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </span>
+              </div>
+              <!-- END PRODUCTS -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="cartoonSection" class="col-md-8">
+        <div class="card border border-default">
+          <div class="card-header">
+            Cartoon
+          </div>
+          <div class="card-body">
+            <div class="row">
+              <!-- BEGIN PRODUCTS -->
+              <div class="col-md-6 col-sm-6">
+                <div class="sc-product-item thumbnail">
+                  <span class="row">
+                    <span class="col-md-6 col-sm-6">
+                      <img class="img-fluid" data-name="product_image" src="imgs/Cartoons/Coin-Bae.jpg" alt="...">
+                    </span>
+                  <span class="col-md-6 col-sm-6">
+                      <img class="img-fluid" data-name="product_image" src="imgs/Cartoons/Coin-Bae-T-Shirt.jpg" alt="...">
+                    </span>
+                  </span>
+                  <div class="caption">
+                    <h4 data-name="product_name">Product 1</h4>
+                    <p data-name="product_desc">Product details</p>
+                    <hr class="line">
+                    <div>
+                      <div class="form-group">
+                        <label>Size: </label>
+                        <select name="product_size" class="form-control input-sm">
+                                                    <option>S</option>
+                                                    <option>M</option>
+                                                    <option>L</option>
+                                                </select>
+                      </div>
+                      <div class="form-group">
+                        <label>Color: </label><br />
+                        <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="white"> white
+                                                </label>
+                        <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="black"> black
+                                                </label>
+                        <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="grey"> grey
+                                                </label>
+                      </div>
+                      <div class="form-group2">
+                        <input class="sc-cart-item-qty" name="product_quantity" min="1" value="1" type="number">
+                      </div>
+                      <strong class="price pull-left">Ksh 1,200</strong>
+
+                      <input name="product_price" value="1200.00" type="hidden" />
+                      <input name="product_id" value="12" type="hidden" />
+                      <button class="sc-add-to-cart btn btn-outline-success btn-sm pull-right">Add to cart</button>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-sm-6">
+                <span class="sc-product-item thumbnail">
+                                    <span class="row">
+                                      <span class="col-md-6 col-sm-6">
+                                        <img class="img-fluid" data-name="product_image" src="imgs/Cartoons/Homerthumbnail" alt="...">
+                                      </span>
+                <span class="col-md-6 col-sm-6">
+                                        <img class="img-fluid" data-name="product_image" src="imgs/Cartoons/Homertshirt" alt="...">
+                                      </span>
+                </span>
+                <div class="caption">
+                  <h4 data-name="product_name">Product 2 </h4>
+                  <p data-name="product_desc">Product details</p>
+
+                  <hr class="line">
+                  <div>
+                    <div class="form-group">
+                      <label>Size: </label>
+                      <select name="product_size" class="form-control input-sm">
+                                                    <option>S</option>
+                                                    <option>M</option>
+                                                    <option>L</option>
+                                                </select>
+                    </div>
+                    <div class="form-group">
+                      <label>Color: </label><br />
+                      <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="white"> white
+                                                </label>
+                      <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="black"> black
+                                                </label>
+                      <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="grey"> grey
+                                                </label>
+                    </div>
+                    <div class="checkbox">
+                      <label>
+                                                    <input type="checkbox" name="gift_wrap" value="1"> Gift wrap
+                                                </label>
+                    </div>
+                    <strong class="price pull-left">Ksh 1,200</strong>
+
+                    <input name="product_price" value="1200.00" type="hidden" />
+                    <input name="product_id" value="145" type="hidden" />
+                    <button class="sc-add-to-cart btn btn-outline-success btn-sm pull-right">Add to cart</button>
+                  </div>
+                  <div class="clearfix"></div>
+                </div>
+                </span>
+              </div>
+              <div class="col-md-6 col-sm-6">
+                <div class="sc-product-item thumbnail">
+                  <span class="row">
+                    <span class="col-md-6 col-sm-6">
+                      <img class="img-fluid" data-name="product_image" src="imgs/Cartoons/Minimalist-Yellow-People.jpg" alt="...">
+                    </span>
+                  <span class="col-md-6 col-sm-6">
+                      <img class="img-fluid" data-name="product_image" src="imgs/Cartoons/Minimalist-Yellow-People-T-Shirt.jpg" alt="...">
+                    </span>
+                  </span>
+                  <div class="caption">
+                    <h4 data-name="product_name">Product 3</h4>
+                    <p data-name="product_desc">Product details</p>
+
+                    <hr class="line">
+
+                    <div>
+                      <div class="form-group">
+                        <label>Size: </label>
+                        <select name="product_size" class="form-control input-sm">
+                                                    <option>S</option>
+                                                    <option>M</option>
+                                                    <option>L</option>
+                                                </select>
+                      </div>
+                      <div class="form-group">
+                        <label>Color: </label><br />
+                        <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="white"> white
+                                                </label>
+                        <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="black"> black
+                                                </label>
+                        <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="grey"> grey
+                                                </label>
+                      </div>
+                      <div class="checkbox">
+                        <label>
+                                                    <input type="checkbox" name="gift_wrap" value="1"> Gift wrap
+                                                </label>
+                      </div>
+                      <strong class="price pull-left">Ksh 1,200</strong>
+
+                      <input name="product_price" value="1200.00" type="hidden" />
+                      <input name="product_id" value="145" type="hidden" />
+                      <button class="sc-add-to-cart btn btn-outline-success btn-sm pull-right">Add to cart</button>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6 col-sm-6">
+                <span class="sc-product-item thumbnail">
+                  <span class="row">
+                    <span class="col-md-6 col-sm-6">
+                      <img class="img-fluid" data-name="product_image" src="imgs/Cartoons/jack.jpg" alt="...">
+                    </span>
+                    <span class="col-md-6 col-sm-6">
+                      <img class="img-fluid" data-name="product_image" src="imgs/Cartoons/jack-t.jpg" alt="...">
+                    </span>
+                  </span>
+                    <div class="caption">
+                        <h4 data-name="product_name">Product 4 </h4>
+                        <p data-name="product_desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+
+                        <hr class="line">
+                        <div>
+                            <div class="form-group">
+                                <label>Size: </label>
+                                <select name="product_size" class="form-control input-sm">
+                                    <option>S</option>
+                                    <option>M</option>
+                                    <option>L</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label>Color: </label><br />
+                                <label class="radio-inline">
+                                    <input type="radio" name="product_color" value="white"> white
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="product_color" value="black"> black
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="product_color" value="grey"> grey
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="gift_wrap" value="1"> Gift wrap
+                                </label>
+                            </div>
+                            <strong class="price pull-left">Ksh 1,200</strong>
+
+                            <input name="product_price" value="1200.00" type="hidden" />
+                            <input name="product_id" value="154" type="hidden" />
+                            <button class="sc-add-to-cart btn btn-outline-success btn-sm pull-right">Add to cart</button>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </span>
+              </div>
+              <!-- END PRODUCTS -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="dcSection" class="col-md-8">
+        <div class="card border border-default">
+          <div class="card-header">
+            Dc Comics
+          </div>
+          <div class="card-body">
+            <div class="row">
+              <!-- BEGIN PRODUCTS -->
+              <div class="col-md-6 col-sm-6">
+                <div class="sc-product-item thumbnail">
+                  <span class="row">
+                    <span class="col-md-6 col-sm-6">
+                      <img class="img-fluid" data-name="product_image" src="imgs/dc/batman.jpg" alt="...">
+                    </span>
+                  <span class="col-md-6 col-sm-6">
+                      <img class="img-fluid" data-name="product_image" src="imgs/dc/batman-t.jpg" alt="...">
+                    </span>
+                  </span>
+                  <div class="caption">
+                    <h4 data-name="product_name">Product 1</h4>
+                    <p data-name="product_desc">Product details</p>
+                    <hr class="line">
+                    <div>
+                      <div class="form-group">
+                        <label>Size: </label>
+                        <select name="product_size" class="form-control input-sm">
+                                                    <option>S</option>
+                                                    <option>M</option>
+                                                    <option>L</option>
+                                                </select>
+                      </div>
+                      <div class="form-group">
+                        <label>Color: </label><br />
+                        <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="white"> white
+                                                </label>
+                        <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="black"> black
+                                                </label>
+                        <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="grey"> grey
+                                                </label>
+                      </div>
+                      <div class="form-group2">
+                        <input class="sc-cart-item-qty" name="product_quantity" min="1" value="1" type="number">
+                      </div>
+                      <strong class="price pull-left">Ksh 1,200</strong>
+
+                      <input name="product_price" value="1200.00" type="hidden" />
+                      <input name="product_id" value="12" type="hidden" />
+                      <button class="sc-add-to-cart btn btn-outline-success btn-sm pull-right">Add to cart</button>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-sm-6">
+                <span class="sc-product-item thumbnail">
+                                    <span class="row">
+                                      <span class="col-md-6 col-sm-6">
+                                        <img class="img-fluid" data-name="product_image" src="imgs/dc/flash.jpg" alt="...">
+                                      </span>
+                <span class="col-md-6 col-sm-6">
+                                        <img class="img-fluid" data-name="product_image" src="imgs/dc/flash-t.jpg" alt="...">
+                                      </span>
+                </span>
+                <div class="caption">
+                  <h4 data-name="product_name">Product 2 </h4>
+                  <p data-name="product_desc">Product details</p>
+
+                  <hr class="line">
+                  <div>
+                    <div class="form-group">
+                      <label>Size: </label>
+                      <select name="product_size" class="form-control input-sm">
+                                                    <option>S</option>
+                                                    <option>M</option>
+                                                    <option>L</option>
+                                                </select>
+                    </div>
+                    <div class="form-group">
+                      <label>Color: </label><br />
+                      <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="white"> white
+                                                </label>
+                      <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="black"> black
+                                                </label>
+                      <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="grey"> grey
+                                                </label>
+                    </div>
+                    <div class="checkbox">
+                      <label>
+                                                    <input type="checkbox" name="gift_wrap" value="1"> Gift wrap
+                                                </label>
+                    </div>
+                    <strong class="price pull-left">Ksh 1,200</strong>
+
+                    <input name="product_price" value="1200.00" type="hidden" />
+                    <input name="product_id" value="145" type="hidden" />
+                    <button class="sc-add-to-cart btn btn-outline-success btn-sm pull-right">Add to cart</button>
+                  </div>
+                  <div class="clearfix"></div>
+                </div>
+                </span>
+              </div>
+              <div class="col-md-6 col-sm-6">
+                <div class="sc-product-item thumbnail">
+                  <span class="row">
+                    <span class="col-md-6 col-sm-6">
+                      <img class="img-fluid" data-name="product_image" src="imgs/dc/justice.jpg" alt="...">
+                    </span>
+                  <span class="col-md-6 col-sm-6">
+                      <img class="img-fluid" data-name="product_image" src="imgs/dc/justice-t.jpg" alt="...">
+                    </span>
+                  </span>
+                  <div class="caption">
+                    <h4 data-name="product_name">Product 3</h4>
+                    <p data-name="product_desc">Product details</p>
+
+                    <hr class="line">
+
+                    <div>
+                      <div class="form-group">
+                        <label>Size: </label>
+                        <select name="product_size" class="form-control input-sm">
+                                                    <option>S</option>
+                                                    <option>M</option>
+                                                    <option>L</option>
+                                                </select>
+                      </div>
+                      <div class="form-group">
+                        <label>Color: </label><br />
+                        <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="white"> white
+                                                </label>
+                        <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="black"> black
+                                                </label>
+                        <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="grey"> grey
+                                                </label>
+                      </div>
+                      <div class="checkbox">
+                        <label>
+                                                    <input type="checkbox" name="gift_wrap" value="1"> Gift wrap
+                                                </label>
+                      </div>
+                      <strong class="price pull-left">Ksh 1,200</strong>
+
+                      <input name="product_price" value="1200.00" type="hidden" />
+                      <input name="product_id" value="145" type="hidden" />
+                      <button class="sc-add-to-cart btn btn-outline-success btn-sm pull-right">Add to cart</button>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6 col-sm-6">
+                <span class="sc-product-item thumbnail">
+                  <span class="row">
+                    <span class="col-md-6 col-sm-6">
+                      <img class="img-fluid" data-name="product_image" src="imgs/dc/Smiles.jpg" alt="...">
+                    </span>
+                    <span class="col-md-6 col-sm-6">
+                      <img class="img-fluid" data-name="product_image" src="imgs/dc/Smiles-t.jpg" alt="...">
+                    </span>
+                  </span>
+                    <div class="caption">
+                        <h4 data-name="product_name">Product 4 </h4>
+                        <p data-name="product_desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+
+                        <hr class="line">
+                        <div>
+                            <div class="form-group">
+                                <label>Size: </label>
+                                <select name="product_size" class="form-control input-sm">
+                                    <option>S</option>
+                                    <option>M</option>
+                                    <option>L</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label>Color: </label><br />
+                                <label class="radio-inline">
+                                    <input type="radio" name="product_color" value="white"> white
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="product_color" value="black"> black
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="product_color" value="grey"> grey
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="gift_wrap" value="1"> Gift wrap
+                                </label>
+                            </div>
+                            <strong class="price pull-left">Ksh 1,200</strong>
+
+                            <input name="product_price" value="1200.00" type="hidden" />
+                            <input name="product_id" value="154" type="hidden" />
+                            <button class="sc-add-to-cart btn btn-outline-success btn-sm pull-right">Add to cart</button>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </span>
+              </div>
+              <!-- END PRODUCTS -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="sportsSection" class="col-md-8">
+        <div class="card border border-default">
+          <div class="card-header">
+            Sports
+          </div>
+          <div class="card-body">
+            <div class="row">
+              <!-- BEGIN PRODUCTS -->
+              <div class="col-md-6 col-sm-6">
+                <div class="sc-product-item thumbnail">
+                  <span class="row">
+                    <span class="col-md-6 col-sm-6">
+                      <img class="img-fluid" data-name="product_image" src="imgs/Sports/football.jpg" alt="...">
+                    </span>
+                  <span class="col-md-6 col-sm-6">
+                      <img class="img-fluid" data-name="product_image" src="imgs/Sports/football-t.jpg" alt="...">
+                    </span>
+                  </span>
+                  <div class="caption">
+                    <h4 data-name="product_name">Product 1</h4>
+                    <p data-name="product_desc">Product details</p>
+                    <hr class="line">
+                    <div>
+                      <div class="form-group">
+                        <label>Size: </label>
+                        <select name="product_size" class="form-control input-sm">
+                                                    <option>S</option>
+                                                    <option>M</option>
+                                                    <option>L</option>
+                                                </select>
+                      </div>
+                      <div class="form-group">
+                        <label>Color: </label><br />
+                        <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="white"> white
+                                                </label>
+                        <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="black"> black
+                                                </label>
+                        <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="grey"> grey
+                                                </label>
+                      </div>
+                      <div class="form-group2">
+                        <input class="sc-cart-item-qty" name="product_quantity" min="1" value="1" type="number">
+                      </div>
+                      <strong class="price pull-left">Ksh 1,200</strong>
+
+                      <input name="product_price" value="1200.00" type="hidden" />
+                      <input name="product_id" value="12" type="hidden" />
+                      <button class="sc-add-to-cart btn btn-outline-success btn-sm pull-right">Add to cart</button>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-sm-6">
+                <span class="sc-product-item thumbnail">
+                                    <span class="row">
+                                      <span class="col-md-6 col-sm-6">
+                                        <img class="img-fluid" data-name="product_image" src="imgs/Sports/milan.jpg" alt="...">
+                                      </span>
+                <span class="col-md-6 col-sm-6">
+                                        <img class="img-fluid" data-name="product_image" src="imgs/Sports/milan-t.jpg" alt="...">
+                                      </span>
+                </span>
+                <div class="caption">
+                  <h4 data-name="product_name">Product 2 </h4>
+                  <p data-name="product_desc">Product details</p>
+
+                  <hr class="line">
+                  <div>
+                    <div class="form-group">
+                      <label>Size: </label>
+                      <select name="product_size" class="form-control input-sm">
+                                                    <option>S</option>
+                                                    <option>M</option>
+                                                    <option>L</option>
+                                                </select>
+                    </div>
+                    <div class="form-group">
+                      <label>Color: </label><br />
+                      <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="white"> white
+                                                </label>
+                      <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="black"> black
+                                                </label>
+                      <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="grey"> grey
+                                                </label>
+                    </div>
+                    <div class="checkbox">
+                      <label>
+                                                    <input type="checkbox" name="gift_wrap" value="1"> Gift wrap
+                                                </label>
+                    </div>
+                    <strong class="price pull-left">Ksh 1,200</strong>
+
+                    <input name="product_price" value="1200.00" type="hidden" />
+                    <input name="product_id" value="145" type="hidden" />
+                    <button class="sc-add-to-cart btn btn-outline-success btn-sm pull-right">Add to cart</button>
+                  </div>
+                  <div class="clearfix"></div>
+                </div>
+                </span>
+              </div>
+              <div class="col-md-6 col-sm-6">
+                <div class="sc-product-item thumbnail">
+                  <span class="row">
+                    <span class="col-md-6 col-sm-6">
+                      <img class="img-fluid" data-name="product_image" src="imgs/Sports/tigers.jpg" alt="...">
+                    </span>
+                  <span class="col-md-6 col-sm-6">
+                      <img class="img-fluid" data-name="product_image" src="imgs/Sports/tigers-t.jpg" alt="...">
+                    </span>
+                  </span>
+                  <div class="caption">
+                    <h4 data-name="product_name">Product 3</h4>
+                    <p data-name="product_desc">Product details</p>
+
+                    <hr class="line">
+
+                    <div>
+                      <div class="form-group">
+                        <label>Size: </label>
+                        <select name="product_size" class="form-control input-sm">
+                                                    <option>S</option>
+                                                    <option>M</option>
+                                                    <option>L</option>
+                                                </select>
+                      </div>
+                      <div class="form-group">
+                        <label>Color: </label><br />
+                        <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="white"> white
+                                                </label>
+                        <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="black"> black
+                                                </label>
+                        <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="grey"> grey
+                                                </label>
+                      </div>
+                      <div class="checkbox">
+                        <label>
+                                                    <input type="checkbox" name="gift_wrap" value="1"> Gift wrap
+                                                </label>
+                      </div>
+                      <strong class="price pull-left">Ksh 1,200</strong>
+
+                      <input name="product_price" value="1200.00" type="hidden" />
+                      <input name="product_id" value="145" type="hidden" />
+                      <button class="sc-add-to-cart btn btn-outline-success btn-sm pull-right">Add to cart</button>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6 col-sm-6">
+                <span class="sc-product-item thumbnail">
+                  <span class="row">
+                    <span class="col-md-6 col-sm-6">
+                      <img class="img-fluid" data-name="product_image" src="imgs/Sports/raven.png" alt="...">
+                    </span>
+                    <span class="col-md-6 col-sm-6">
+                      <img class="img-fluid" data-name="product_image" src="imgs/Sports/raven-t.jpg" alt="...">
+                    </span>
+                  </span>
+                    <div class="caption">
+                        <h4 data-name="product_name">Product 4 </h4>
+                        <p data-name="product_desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+
+                        <hr class="line">
+                        <div>
+                            <div class="form-group">
+                                <label>Size: </label>
+                                <select name="product_size" class="form-control input-sm">
+                                    <option>S</option>
+                                    <option>M</option>
+                                    <option>L</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label>Color: </label><br />
+                                <label class="radio-inline">
+                                    <input type="radio" name="product_color" value="white"> white
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="product_color" value="black"> black
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="product_color" value="grey"> grey
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="gift_wrap" value="1"> Gift wrap
+                                </label>
+                            </div>
+                            <strong class="price pull-left">Ksh 1,200</strong>
+
+                            <input name="product_price" value="1200.00" type="hidden" />
+                            <input name="product_id" value="154" type="hidden" />
+                            <button class="sc-add-to-cart btn btn-outline-success btn-sm pull-right">Add to cart</button>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </span>
+              </div>
+              <!-- END PRODUCTS -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="animalSection" class="col-md-8">
+        <div class="card border border-default">
+          <div class="card-header">
+            Animals
+          </div>
+          <div class="card-body">
+            <div class="row">
+              <!-- BEGIN PRODUCTS -->
+              <div class="col-md-6 col-sm-6">
+                <div class="sc-product-item thumbnail">
+                  <span class="row">
+                    <span class="col-md-6 col-sm-6">
+                      <img class="img-fluid" data-name="product_image" src="imgs/Animal/cow.jpg" alt="...">
+                    </span>
+                  <span class="col-md-6 col-sm-6">
+                      <img class="img-fluid" data-name="product_image" src="imgs/Animal/cow-t.jpg" alt="...">
+                    </span>
+                  </span>
+                  <div class="caption">
+                    <h4 data-name="product_name">Product 1</h4>
+                    <p data-name="product_desc">Product details</p>
+                    <hr class="line">
+                    <div>
+                      <div class="form-group">
+                        <label>Size: </label>
+                        <select name="product_size" class="form-control input-sm">
+                                                    <option>S</option>
+                                                    <option>M</option>
+                                                    <option>L</option>
+                                                </select>
+                      </div>
+                      <div class="form-group">
+                        <label>Color: </label><br />
+                        <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="white"> white
+                                                </label>
+                        <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="black"> black
+                                                </label>
+                        <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="grey"> grey
+                                                </label>
+                      </div>
+                      <div class="form-group2">
+                        <input class="sc-cart-item-qty" name="product_quantity" min="1" value="1" type="number">
+                      </div>
+                      <strong class="price pull-left">Ksh 1,200</strong>
+
+                      <input name="product_price" value="1200.00" type="hidden" />
+                      <input name="product_id" value="12" type="hidden" />
+                      <button class="sc-add-to-cart btn btn-outline-success btn-sm pull-right">Add to cart</button>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-sm-6">
+                <span class="sc-product-item thumbnail">
+                                    <span class="row">
+                                      <span class="col-md-6 col-sm-6">
+                                        <img class="img-fluid" data-name="product_image" src="imgs/Animal/owl.jpg" alt="...">
+                                      </span>
+                <span class="col-md-6 col-sm-6">
+                                        <img class="img-fluid" data-name="product_image" src="imgs/Animal/owl-t.jpg" alt="...">
+                                      </span>
+                </span>
+                <div class="caption">
+                  <h4 data-name="product_name">Product 2 </h4>
+                  <p data-name="product_desc">Product details</p>
+
+                  <hr class="line">
+                  <div>
+                    <div class="form-group">
+                      <label>Size: </label>
+                      <select name="product_size" class="form-control input-sm">
+                                                    <option>S</option>
+                                                    <option>M</option>
+                                                    <option>L</option>
+                                                </select>
+                    </div>
+                    <div class="form-group">
+                      <label>Color: </label><br />
+                      <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="white"> white
+                                                </label>
+                      <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="black"> black
+                                                </label>
+                      <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="grey"> grey
+                                                </label>
+                    </div>
+                    <div class="checkbox">
+                      <label>
+                                                    <input type="checkbox" name="gift_wrap" value="1"> Gift wrap
+                                                </label>
+                    </div>
+                    <strong class="price pull-left">Ksh 1,200</strong>
+
+                    <input name="product_price" value="1200.00" type="hidden" />
+                    <input name="product_id" value="145" type="hidden" />
+                    <button class="sc-add-to-cart btn btn-outline-success btn-sm pull-right">Add to cart</button>
+                  </div>
+                  <div class="clearfix"></div>
+                </div>
+                </span>
+              </div>
+              <div class="col-md-6 col-sm-6">
+                <div class="sc-product-item thumbnail">
+                  <span class="row">
+                    <span class="col-md-6 col-sm-6">
+                      <img class="img-fluid" data-name="product_image" src="imgs/Animal/simba.jpg" alt="...">
+                    </span>
+                  <span class="col-md-6 col-sm-6">
+                      <img class="img-fluid" data-name="product_image" src="imgs/Animal/simba-t.jpg" alt="...">
+                    </span>
+                  </span>
+                  <div class="caption">
+                    <h4 data-name="product_name">Product 3</h4>
+                    <p data-name="product_desc">Product details</p>
+
+                    <hr class="line">
+
+                    <div>
+                      <div class="form-group">
+                        <label>Size: </label>
+                        <select name="product_size" class="form-control input-sm">
+                                                    <option>S</option>
+                                                    <option>M</option>
+                                                    <option>L</option>
+                                                </select>
+                      </div>
+                      <div class="form-group">
+                        <label>Color: </label><br />
+                        <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="white"> white
+                                                </label>
+                        <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="black"> black
+                                                </label>
+                        <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="grey"> grey
+                                                </label>
+                      </div>
+                      <div class="checkbox">
+                        <label>
+                                                    <input type="checkbox" name="gift_wrap" value="1"> Gift wrap
+                                                </label>
+                      </div>
+                      <strong class="price pull-left">Ksh 1,200</strong>
+
+                      <input name="product_price" value="1200.00" type="hidden" />
+                      <input name="product_id" value="145" type="hidden" />
+                      <button class="sc-add-to-cart btn btn-outline-success btn-sm pull-right">Add to cart</button>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6 col-sm-6">
+                <span class="sc-product-item thumbnail">
+                  <span class="row">
+                    <span class="col-md-6 col-sm-6">
+                      <img class="img-fluid" data-name="product_image" src="imgs/Animal/deer.jpg" alt="...">
+                    </span>
+                    <span class="col-md-6 col-sm-6">
+                      <img class="img-fluid" data-name="product_image" src="imgs/Animal/deer-t.jpg" alt="...">
+                    </span>
+                  </span>
+                    <div class="caption">
+                        <h4 data-name="product_name">Product 4 </h4>
+                        <p data-name="product_desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+
+                        <hr class="line">
+                        <div>
+                            <div class="form-group">
+                                <label>Size: </label>
+                                <select name="product_size" class="form-control input-sm">
+                                    <option>S</option>
+                                    <option>M</option>
+                                    <option>L</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label>Color: </label><br />
+                                <label class="radio-inline">
+                                    <input type="radio" name="product_color" value="white"> white
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="product_color" value="black"> black
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="product_color" value="grey"> grey
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="gift_wrap" value="1"> Gift wrap
+                                </label>
+                            </div>
+                            <strong class="price pull-left">Ksh 1,200</strong>
+
+                            <input name="product_price" value="1200.00" type="hidden" />
+                            <input name="product_id" value="154" type="hidden" />
+                            <button class="sc-add-to-cart btn btn-outline-success btn-sm pull-right">Add to cart</button>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </span>
+              </div>
+              <!-- END PRODUCTS -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="musicSection" class="col-md-8">
+        <div class="card border border-default">
+          <div class="card-header">
+            Music
+          </div>
+          <div class="card-body">
+            <div class="row">
+              <!-- BEGIN PRODUCTS -->
+              <div class="col-md-6 col-sm-6">
+                <div class="sc-product-item thumbnail">
+                  <span class="row">
+                    <span class="col-md-6 col-sm-6">
+                      <img class="img-fluid" data-name="product_image" src="imgs/Music/dance.jpg" alt="...">
+                    </span>
+                  <span class="col-md-6 col-sm-6">
+                      <img class="img-fluid" data-name="product_image" src="imgs//Music/dance-t.jpg" alt="...">
+                    </span>
+                  </span>
+                  <div class="caption">
+                    <h4 data-name="product_name">Product 1</h4>
+                    <p data-name="product_desc">Product details</p>
+                    <hr class="line">
+                    <div>
+                      <div class="form-group">
+                        <label>Size: </label>
+                        <select name="product_size" class="form-control input-sm">
+                                                    <option>S</option>
+                                                    <option>M</option>
+                                                    <option>L</option>
+                                                </select>
+                      </div>
+                      <div class="form-group">
+                        <label>Color: </label><br />
+                        <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="white"> white
+                                                </label>
+                        <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="black"> black
+                                                </label>
+                        <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="grey"> grey
+                                                </label>
+                      </div>
+                      <div class="form-group2">
+                        <input class="sc-cart-item-qty" name="product_quantity" min="1" value="1" type="number">
+                      </div>
+                      <strong class="price pull-left">Ksh 1,200</strong>
+
+                      <input name="product_price" value="1200.00" type="hidden" />
+                      <input name="product_id" value="12" type="hidden" />
+                      <button class="sc-add-to-cart btn btn-outline-success btn-sm pull-right">Add to cart</button>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-sm-6">
+                <span class="sc-product-item thumbnail">
+                                    <span class="row">
+                                      <span class="col-md-6 col-sm-6">
+                                        <img class="img-fluid" data-name="product_image" src="imgs//Music/droppin.jpg" alt="...">
+                                      </span>
+                <span class="col-md-6 col-sm-6">
+                                        <img class="img-fluid" data-name="product_image" src="imgs///Music/droppin-t.jpg" alt="...">
+                                      </span>
+                </span>
+                <div class="caption">
+                  <h4 data-name="product_name">Product 2 </h4>
+                  <p data-name="product_desc">Product details</p>
+
+                  <hr class="line">
+                  <div>
+                    <div class="form-group">
+                      <label>Size: </label>
+                      <select name="product_size" class="form-control input-sm">
+                                                    <option>S</option>
+                                                    <option>M</option>
+                                                    <option>L</option>
+                                                </select>
+                    </div>
+                    <div class="form-group">
+                      <label>Color: </label><br />
+                      <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="white"> white
+                                                </label>
+                      <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="black"> black
+                                                </label>
+                      <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="grey"> grey
+                                                </label>
+                    </div>
+                    <div class="checkbox">
+                      <label>
+                                                    <input type="checkbox" name="gift_wrap" value="1"> Gift wrap
+                                                </label>
+                    </div>
+                    <strong class="price pull-left">Ksh 1,200</strong>
+
+                    <input name="product_price" value="1200.00" type="hidden" />
+                    <input name="product_id" value="145" type="hidden" />
+                    <button class="sc-add-to-cart btn btn-outline-success btn-sm pull-right">Add to cart</button>
+                  </div>
+                  <div class="clearfix"></div>
+                </div>
+                </span>
+              </div>
+              <div class="col-md-6 col-sm-6">
+                <div class="sc-product-item thumbnail">
+                  <span class="row">
+                    <span class="col-md-6 col-sm-6">
+                      <img class="img-fluid" data-name="product_image" src="imgs//Music/gorilla.jpg" alt="...">
+                    </span>
+                  <span class="col-md-6 col-sm-6">
+                      <img class="img-fluid" data-name="product_image" src="imgs//Music/gorilla-t.jpg" alt="...">
+                    </span>
+                  </span>
+                  <div class="caption">
+                    <h4 data-name="product_name">Product 3</h4>
+                    <p data-name="product_desc">Product details</p>
+
+                    <hr class="line">
+
+                    <div>
+                      <div class="form-group">
+                        <label>Size: </label>
+                        <select name="product_size" class="form-control input-sm">
+                                                    <option>S</option>
+                                                    <option>M</option>
+                                                    <option>L</option>
+                                                </select>
+                      </div>
+                      <div class="form-group">
+                        <label>Color: </label><br />
+                        <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="white"> white
+                                                </label>
+                        <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="black"> black
+                                                </label>
+                        <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="grey"> grey
+                                                </label>
+                      </div>
+                      <div class="checkbox">
+                        <label>
+                                                    <input type="checkbox" name="gift_wrap" value="1"> Gift wrap
+                                                </label>
+                      </div>
+                      <strong class="price pull-left">Ksh 1,200</strong>
+
+                      <input name="product_price" value="1200.00" type="hidden" />
+                      <input name="product_id" value="145" type="hidden" />
+                      <button class="sc-add-to-cart btn btn-outline-success btn-sm pull-right">Add to cart</button>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6 col-sm-6">
+                <span class="sc-product-item thumbnail">
+                  <span class="row">
+                    <span class="col-md-6 col-sm-6">
+                      <img class="img-fluid" data-name="product_image" src="imgs//Music/rock.jpg" alt="...">
+                    </span>
+                    <span class="col-md-6 col-sm-6">
+                      <img class="img-fluid" data-name="product_image" src="imgs//Music/rock-t.jpg" alt="...">
+                    </span>
+                  </span>
+                    <div class="caption">
+                        <h4 data-name="product_name">Product 4 </h4>
+                        <p data-name="product_desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+
+                        <hr class="line">
+                        <div>
+                            <div class="form-group">
+                                <label>Size: </label>
+                                <select name="product_size" class="form-control input-sm">
+                                    <option>S</option>
+                                    <option>M</option>
+                                    <option>L</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label>Color: </label><br />
+                                <label class="radio-inline">
+                                    <input type="radio" name="product_color" value="white"> white
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="product_color" value="black"> black
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="product_color" value="grey"> grey
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="gift_wrap" value="1"> Gift wrap
+                                </label>
+                            </div>
+                            <strong class="price pull-left">Ksh 1,200</strong>
+
+                            <input name="product_price" value="1200.00" type="hidden" />
+                            <input name="product_id" value="154" type="hidden" />
+                            <button class="sc-add-to-cart btn btn-outline-success btn-sm pull-right">Add to cart</button>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </span>
+              </div>
+              <!-- END PRODUCTS -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="quoteSection" class="col-md-8">
+        <div class="card border border-default">
+          <div class="card-header">
+            Quotes
+          </div>
+          <div class="card-body">
+            <div class="row">
+              <!-- BEGIN PRODUCTS -->
+              <div class="col-md-6 col-sm-6">
+                <div class="sc-product-item thumbnail">
+                  <span class="row">
+                    <span class="col-md-6 col-sm-6">
+                      <img class="img-fluid" data-name="product_image" src="imgs/Quotes/bat.jpg" alt="...">
+                    </span>
+                  <span class="col-md-6 col-sm-6">
+                      <img class="img-fluid" data-name="product_image" src="imgs/Quotes/bat-t.jpg" alt="...">
+                    </span>
+                  </span>
+                  <div class="caption">
+                    <h4 data-name="product_name">Product 1</h4>
+                    <p data-name="product_desc">Product details</p>
+                    <hr class="line">
+                    <div>
+                      <div class="form-group">
+                        <label>Size: </label>
+                        <select name="product_size" class="form-control input-sm">
+                                                    <option>S</option>
+                                                    <option>M</option>
+                                                    <option>L</option>
+                                                </select>
+                      </div>
+                      <div class="form-group">
+                        <label>Color: </label><br />
+                        <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="white"> white
+                                                </label>
+                        <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="black"> black
+                                                </label>
+                        <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="grey"> grey
+                                                </label>
+                      </div>
+                      <div class="form-group2">
+                        <input class="sc-cart-item-qty" name="product_quantity" min="1" value="1" type="number">
+                      </div>
+                      <strong class="price pull-left">Ksh 1,200</strong>
+
+                      <input name="product_price" value="1200.00" type="hidden" />
+                      <input name="product_id" value="12" type="hidden" />
+                      <button class="sc-add-to-cart btn btn-outline-success btn-sm pull-right">Add to cart</button>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-sm-6">
+                <span class="sc-product-item thumbnail">
+                                    <span class="row">
+                                      <span class="col-md-6 col-sm-6">
+                                        <img class="img-fluid" data-name="product_image" src="imgs/Quotes/recycle.jpg" alt="...">
+                                      </span>
+                <span class="col-md-6 col-sm-6">
+                                        <img class="img-fluid" data-name="product_image" src="imgs/Quotes/recycle-t.jpg" alt="...">
+                                      </span>
+                </span>
+                <div class="caption">
+                  <h4 data-name="product_name">Product 2 </h4>
+                  <p data-name="product_desc">Product details</p>
+
+                  <hr class="line">
+                  <div>
+                    <div class="form-group">
+                      <label>Size: </label>
+                      <select name="product_size" class="form-control input-sm">
+                                                    <option>S</option>
+                                                    <option>M</option>
+                                                    <option>L</option>
+                                                </select>
+                    </div>
+                    <div class="form-group">
+                      <label>Color: </label><br />
+                      <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="white"> white
+                                                </label>
+                      <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="black"> black
+                                                </label>
+                      <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="grey"> grey
+                                                </label>
+                    </div>
+                    <div class="checkbox">
+                      <label>
+                                                    <input type="checkbox" name="gift_wrap" value="1"> Gift wrap
+                                                </label>
+                    </div>
+                    <strong class="price pull-left">Ksh 1,200</strong>
+
+                    <input name="product_price" value="1200.00" type="hidden" />
+                    <input name="product_id" value="145" type="hidden" />
+                    <button class="sc-add-to-cart btn btn-outline-success btn-sm pull-right">Add to cart</button>
+                  </div>
+                  <div class="clearfix"></div>
+                </div>
+                </span>
+              </div>
+              <div class="col-md-6 col-sm-6">
+                <div class="sc-product-item thumbnail">
+                  <span class="row">
+                    <span class="col-md-6 col-sm-6">
+                      <img class="img-fluid" data-name="product_image" src="imgs/Quotes/100.jpg" alt="...">
+                    </span>
+                  <span class="col-md-6 col-sm-6">
+                      <img class="img-fluid" data-name="product_image" src="imgs//Quotes/100-t.jpg" alt="...">
+                    </span>
+                  </span>
+                  <div class="caption">
+                    <h4 data-name="product_name">Product 3</h4>
+                    <p data-name="product_desc">Product details</p>
+
+                    <hr class="line">
+
+                    <div>
+                      <div class="form-group">
+                        <label>Size: </label>
+                        <select name="product_size" class="form-control input-sm">
+                                                    <option>S</option>
+                                                    <option>M</option>
+                                                    <option>L</option>
+                                                </select>
+                      </div>
+                      <div class="form-group">
+                        <label>Color: </label><br />
+                        <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="white"> white
+                                                </label>
+                        <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="black"> black
+                                                </label>
+                        <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="grey"> grey
+                                                </label>
+                      </div>
+                      <div class="checkbox">
+                        <label>
+                                                    <input type="checkbox" name="gift_wrap" value="1"> Gift wrap
+                                                </label>
+                      </div>
+                      <strong class="price pull-left">Ksh 1,200</strong>
+
+                      <input name="product_price" value="1200.00" type="hidden" />
+                      <input name="product_id" value="145" type="hidden" />
+                      <button class="sc-add-to-cart btn btn-outline-success btn-sm pull-right">Add to cart</button>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6 col-sm-6">
+                <span class="sc-product-item thumbnail">
+                  <span class="row">
+                    <span class="col-md-6 col-sm-6">
+                      <img class="img-fluid" data-name="product_image" src="imgs/Quotes/doh.jpg" alt="...">
+                    </span>
+                    <span class="col-md-6 col-sm-6">
+                      <img class="img-fluid" data-name="product_image" src="imgs/Quotes/doh-t.jpg" alt="...">
+                    </span>
+                  </span>
+                    <div class="caption">
+                        <h4 data-name="product_name">Product 4 </h4>
+                        <p data-name="product_desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+
+                        <hr class="line">
+                        <div>
+                            <div class="form-group">
+                                <label>Size: </label>
+                                <select name="product_size" class="form-control input-sm">
+                                    <option>S</option>
+                                    <option>M</option>
+                                    <option>L</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label>Color: </label><br />
+                                <label class="radio-inline">
+                                    <input type="radio" name="product_color" value="white"> white
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="product_color" value="black"> black
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="product_color" value="grey"> grey
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="gift_wrap" value="1"> Gift wrap
+                                </label>
+                            </div>
+                            <strong class="price pull-left">Ksh 1,200</strong>
+
+                            <input name="product_price" value="1200.00" type="hidden" />
+                            <input name="product_id" value="154" type="hidden" />
+                            <button class="sc-add-to-cart btn btn-outline-success btn-sm pull-right">Add to cart</button>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </span>
+              </div>
+              <!-- END PRODUCTS -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="abstractSection" class="col-md-8">
+        <div class="card border border-default">
+          <div class="card-header">
+            Abstract
+          </div>
+          <div class="card-body">
+            <div class="row">
+              <!-- BEGIN PRODUCTS -->
+              <div class="col-md-6 col-sm-6">
+                <div class="sc-product-item thumbnail">
+                  <span class="row">
+                    <span class="col-md-6 col-sm-6">
+                      <img class="img-fluid" data-name="product_image" src="imgs/Abstract/painter.jpg" alt="...">
+                    </span>
+                  <span class="col-md-6 col-sm-6">
+                      <img class="img-fluid" data-name="product_image" src="imgs/Abstract/painter-t.jpg" alt="...">
+                    </span>
+                  </span>
+                  <div class="caption">
+                    <h4 data-name="product_name">Product 1</h4>
+                    <p data-name="product_desc">Product details</p>
+                    <hr class="line">
+                    <div>
+                      <div class="form-group">
+                        <label>Size: </label>
+                        <select name="product_size" class="form-control input-sm">
+                                                    <option>S</option>
+                                                    <option>M</option>
+                                                    <option>L</option>
+                                                </select>
+                      </div>
+                      <div class="form-group">
+                        <label>Color: </label><br />
+                        <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="white"> white
+                                                </label>
+                        <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="black"> black
+                                                </label>
+                        <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="grey"> grey
+                                                </label>
+                      </div>
+                      <div class="form-group2">
+                        <input class="sc-cart-item-qty" name="product_quantity" min="1" value="1" type="number">
+                      </div>
+                      <strong class="price pull-left">Ksh 1,200</strong>
+
+                      <input name="product_price" value="1200.00" type="hidden" />
+                      <input name="product_id" value="12" type="hidden" />
+                      <button class="sc-add-to-cart btn btn-outline-success btn-sm pull-right">Add to cart</button>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-sm-6">
+                <span class="sc-product-item thumbnail">
+                                    <span class="row">
+                                      <span class="col-md-6 col-sm-6">
+                                        <img class="img-fluid" data-name="product_image" src="imgs/Abstract/major.jpg" alt="...">
+                                      </span>
+                <span class="col-md-6 col-sm-6">
+                                        <img class="img-fluid" data-name="product_image" src="imgs/Abstract/major-t.jpg" alt="...">
+                                      </span>
+                </span>
+                <div class="caption">
+                  <h4 data-name="product_name">Product 2 </h4>
+                  <p data-name="product_desc">Product details</p>
+
+                  <hr class="line">
+                  <div>
+                    <div class="form-group">
+                      <label>Size: </label>
+                      <select name="product_size" class="form-control input-sm">
+                                                    <option>S</option>
+                                                    <option>M</option>
+                                                    <option>L</option>
+                                                </select>
+                    </div>
+                    <div class="form-group">
+                      <label>Color: </label><br />
+                      <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="white"> white
+                                                </label>
+                      <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="black"> black
+                                                </label>
+                      <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="grey"> grey
+                                                </label>
+                    </div>
+                    <div class="checkbox">
+                      <label>
+                                                    <input type="checkbox" name="gift_wrap" value="1"> Gift wrap
+                                                </label>
+                    </div>
+                    <strong class="price pull-left">Ksh 1,200</strong>
+
+                    <input name="product_price" value="1200.00" type="hidden" />
+                    <input name="product_id" value="145" type="hidden" />
+                    <button class="sc-add-to-cart btn btn-outline-success btn-sm pull-right">Add to cart</button>
+                  </div>
+                  <div class="clearfix"></div>
+                </div>
+                </span>
+              </div>
+              <div class="col-md-6 col-sm-6">
+                <div class="sc-product-item thumbnail">
+                  <span class="row">
+                    <span class="col-md-6 col-sm-6">
+                      <img class="img-fluid" data-name="product_image" src="imgs/Abstract/pixels.jpg" alt="...">
+                    </span>
+                  <span class="col-md-6 col-sm-6">
+                      <img class="img-fluid" data-name="product_image" src="imgs/Abstract/pixels-t.jpg" alt="...">
+                    </span>
+                  </span>
+                  <div class="caption">
+                    <h4 data-name="product_name">Product 3</h4>
+                    <p data-name="product_desc">Product details</p>
+
+                    <hr class="line">
+
+                    <div>
+                      <div class="form-group">
+                        <label>Size: </label>
+                        <select name="product_size" class="form-control input-sm">
+                                                    <option>S</option>
+                                                    <option>M</option>
+                                                    <option>L</option>
+                                                </select>
+                      </div>
+                      <div class="form-group">
+                        <label>Color: </label><br />
+                        <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="white"> white
+                                                </label>
+                        <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="black"> black
+                                                </label>
+                        <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="grey"> grey
+                                                </label>
+                      </div>
+                      <div class="checkbox">
+                        <label>
+                                                    <input type="checkbox" name="gift_wrap" value="1"> Gift wrap
+                                                </label>
+                      </div>
+                      <strong class="price pull-left">Ksh 1,200</strong>
+
+                      <input name="product_price" value="1200.00" type="hidden" />
+                      <input name="product_id" value="145" type="hidden" />
+                      <button class="sc-add-to-cart btn btn-outline-success btn-sm pull-right">Add to cart</button>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6 col-sm-6">
+                <span class="sc-product-item thumbnail">
+                  <span class="row">
+                    <span class="col-md-6 col-sm-6">
+                      <img class="img-fluid" data-name="product_image" src="imgs/Abstract/protect.jpg" alt="...">
+                    </span>
+                    <span class="col-md-6 col-sm-6">
+                      <img class="img-fluid" data-name="product_image" src="imgs/Abstract/protect-t.jpg" alt="...">
+                    </span>
+                  </span>
+                    <div class="caption">
+                        <h4 data-name="product_name">Product 4 </h4>
+                        <p data-name="product_desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+
+                        <hr class="line">
+                        <div>
+                            <div class="form-group">
+                                <label>Size: </label>
+                                <select name="product_size" class="form-control input-sm">
+                                    <option>S</option>
+                                    <option>M</option>
+                                    <option>L</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label>Color: </label><br />
+                                <label class="radio-inline">
+                                    <input type="radio" name="product_color" value="white"> white
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="product_color" value="black"> black
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="product_color" value="grey"> grey
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="gift_wrap" value="1"> Gift wrap
+                                </label>
+                            </div>
+                            <strong class="price pull-left">Ksh 1,200</strong>
+
+                            <input name="product_price" value="1200.00" type="hidden" />
+                            <input name="product_id" value="154" type="hidden" />
+                            <button class="sc-add-to-cart btn btn-outline-success btn-sm pull-right">Add to cart</button>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </span>
+              </div>
+              <!-- END PRODUCTS -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="starSection" class="col-md-8">
+        <div class="card border border-default">
+          <div class="card-header">
+            Star Wars
+          </div>
+          <div class="card-body">
+            <div class="row">
+              <!-- BEGIN PRODUCTS -->
+              <div class="col-md-6 col-sm-6">
+                <div class="sc-product-item thumbnail">
+                  <span class="row">
+                    <span class="col-md-6 col-sm-6">
+                      <img class="img-fluid" data-name="product_image" src="imgs/star/beach.jpg" alt="...">
+                    </span>
+                  <span class="col-md-6 col-sm-6">
+                      <img class="img-fluid" data-name="product_image" src="imgs/star/beach-t.jpg" alt="...">
+                    </span>
+                  </span>
+                  <div class="caption">
+                    <h4 data-name="product_name">Product 1</h4>
+                    <p data-name="product_desc">Product details</p>
+                    <hr class="line">
+                    <div>
+                      <div class="form-group">
+                        <label>Size: </label>
+                        <select name="product_size" class="form-control input-sm">
+                                                    <option>S</option>
+                                                    <option>M</option>
+                                                    <option>L</option>
+                                                </select>
+                      </div>
+                      <div class="form-group">
+                        <label>Color: </label><br />
+                        <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="white"> white
+                                                </label>
+                        <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="black"> black
+                                                </label>
+                        <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="grey"> grey
+                                                </label>
+                      </div>
+                      <div class="form-group2">
+                        <input class="sc-cart-item-qty" name="product_quantity" min="1" value="1" type="number">
+                      </div>
+                      <strong class="price pull-left">Ksh 1,200</strong>
+
+                      <input name="product_price" value="1200.00" type="hidden" />
+                      <input name="product_id" value="12" type="hidden" />
+                      <button class="sc-add-to-cart btn btn-outline-success btn-sm pull-right">Add to cart</button>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-sm-6">
+                <span class="sc-product-item thumbnail">
+                                    <span class="row">
+                                      <span class="col-md-6 col-sm-6">
+                                        <img class="img-fluid" data-name="product_image" src="imgs/star/darth.jpg" alt="...">
+                                      </span>
+                <span class="col-md-6 col-sm-6">
+                                        <img class="img-fluid" data-name="product_image" src="imgs/star/darth-t.jpg" alt="...">
+                                      </span>
+                </span>
+                <div class="caption">
+                  <h4 data-name="product_name">Product 2 </h4>
+                  <p data-name="product_desc">Product details</p>
+
+                  <hr class="line">
+                  <div>
+                    <div class="form-group">
+                      <label>Size: </label>
+                      <select name="product_size" class="form-control input-sm">
+                                                    <option>S</option>
+                                                    <option>M</option>
+                                                    <option>L</option>
+                                                </select>
+                    </div>
+                    <div class="form-group">
+                      <label>Color: </label><br />
+                      <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="white"> white
+                                                </label>
+                      <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="black"> black
+                                                </label>
+                      <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="grey"> grey
+                                                </label>
+                    </div>
+                    <div class="checkbox">
+                      <label>
+                                                    <input type="checkbox" name="gift_wrap" value="1"> Gift wrap
+                                                </label>
+                    </div>
+                    <strong class="price pull-left">Ksh 1,200</strong>
+
+                    <input name="product_price" value="1200.00" type="hidden" />
+                    <input name="product_id" value="145" type="hidden" />
+                    <button class="sc-add-to-cart btn btn-outline-success btn-sm pull-right">Add to cart</button>
+                  </div>
+                  <div class="clearfix"></div>
+                </div>
+                </span>
+              </div>
+              <div class="col-md-6 col-sm-6">
+                <div class="sc-product-item thumbnail">
+                  <span class="row">
+                    <span class="col-md-6 col-sm-6">
+                      <img class="img-fluid" data-name="product_image" src="imgs/star/force.jpg" alt="...">
+                    </span>
+                  <span class="col-md-6 col-sm-6">
+                      <img class="img-fluid" data-name="product_image" src="imgs/star/force-t.jpg" alt="...">
+                    </span>
+                  </span>
+                  <div class="caption">
+                    <h4 data-name="product_name">Product 3</h4>
+                    <p data-name="product_desc">Product details</p>
+
+                    <hr class="line">
+
+                    <div>
+                      <div class="form-group">
+                        <label>Size: </label>
+                        <select name="product_size" class="form-control input-sm">
+                                                    <option>S</option>
+                                                    <option>M</option>
+                                                    <option>L</option>
+                                                </select>
+                      </div>
+                      <div class="form-group">
+                        <label>Color: </label><br />
+                        <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="white"> white
+                                                </label>
+                        <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="black"> black
+                                                </label>
+                        <label class="radio-inline">
+                                                    <input type="radio" name="product_color" value="grey"> grey
+                                                </label>
+                      </div>
+                      <div class="checkbox">
+                        <label>
+                                                    <input type="checkbox" name="gift_wrap" value="1"> Gift wrap
+                                                </label>
+                      </div>
+                      <strong class="price pull-left">Ksh 1,200</strong>
+
+                      <input name="product_price" value="1200.00" type="hidden" />
+                      <input name="product_id" value="145" type="hidden" />
+                      <button class="sc-add-to-cart btn btn-outline-success btn-sm pull-right">Add to cart</button>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6 col-sm-6">
+                <span class="sc-product-item thumbnail">
+                  <span class="row">
+                    <span class="col-md-6 col-sm-6">
+                      <img class="img-fluid" data-name="product_image" src="imgs/star/jedi.jpg" alt="...">
+                    </span>
+                    <span class="col-md-6 col-sm-6">
+                      <img class="img-fluid" data-name="product_image" src="imgs/star/jedi-t.jpg" alt="...">
+                    </span>
+                  </span>
+                    <div class="caption">
+                        <h4 data-name="product_name">Product 4 </h4>
+                        <p data-name="product_desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+
+                        <hr class="line">
+                        <div>
+                            <div class="form-group">
+                                <label>Size: </label>
+                                <select name="product_size" class="form-control input-sm">
+                                    <option>S</option>
+                                    <option>M</option>
+                                    <option>L</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label>Color: </label><br />
+                                <label class="radio-inline">
+                                    <input type="radio" name="product_color" value="white"> white
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="product_color" value="black"> black
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="product_color" value="grey"> grey
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="gift_wrap" value="1"> Gift wrap
+                                </label>
+                            </div>
+                            <strong class="price pull-left">Ksh 1,200</strong>
+
+                            <input name="product_price" value="1200.00" type="hidden" />
+                            <input name="product_id" value="154" type="hidden" />
+                            <button class="sc-add-to-cart btn btn-outline-success btn-sm pull-right">Add to cart</button>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </span>
+              </div>
+              <!-- END PRODUCTS -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <aside class="checkout col-md-4 ">
+
+        <!-- Cart submit form -->
+        <form action="results.php" method="POST">
+          <!-- SmartCart element -->
+          <div id="smartcart"></div>
+        </form>
+
+      </aside>
+    </div>
+  </section>
+
+  <!-- About Section  -->
+  <div id="about" class="container-fluid mt-2 about">
+    <h3 class="mt-3">About</h3>
+  </div>
+  <!-- Footer  -->
+  <div class="container-fluid mt-2 footer">
+    <footer class="site-footer container-fluid">
+      <div class="wrapperFull wrapperFull--dust-dark">
+        <div class="wrapper wrapper--thin section">
+          <div class="text-group text-center">
+            <ul class="social">
+              <li href="www.facebook.com" class="fa fa-facebook">
+                </a>
+              </li>
+              <li href="www.twitter.com" class="fa fa-twitter">
+                </a>
+              </li>
+              <li href="www.instagram.com" class="fa fa-instagram">
+                </a>
+              </li>
+              <li href="www.foursquare.com" class="fa fa-foursquare">
+                </a>
+              </li>
+              <li href="www.linkedin.com" class="fa fa-linkedin">
+                </a>
+              </li>
+            </ul>
+            <form class="form-inline d-flex justify-content-center mb-2">
+              <div class="form-group">
+                <label class="mr-3" for="email">You email</label>
+                <input type="email" class="form-control" id="email" placeholder="email">
+              </div>
+              <button type="submit" class="btn btn-primary ml-3">Subscribe</button>
+            </form>
+            <p class="h3">Creative cloth design to for you at Kreative Apparel</p>
+          </div>
+        </div>
+      </div>
+      <div class="wrapperFull--dust-brand">
+        <div class="wrapper wrapper-thin section section--short text-center">
+          <p style="color:white;">&copy; Kreative Apparel &amp; Designs. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  <script src="js/jquery.smartCart.js" type="text/javascript"></script>
+  <script src="js/main.js" charset="utf-8"></script>
+
+</body>
+
+</html>

@@ -27,7 +27,7 @@ This site was build using
 6.  some `PHP`
 
 
-Click [here](https://samngigi.github.io/mpft-ip/) to see the site.
+Click [here](https://samngigi.github.io/k.apparel/) to see the site.
 
 ------------
 
